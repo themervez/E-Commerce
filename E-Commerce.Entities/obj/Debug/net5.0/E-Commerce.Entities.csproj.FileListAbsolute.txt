@@ -1,0 +1,15 @@
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\bin\Debug\net5.0\E-Commerce.Entities.deps.json
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\bin\Debug\net5.0\E-Commerce.Entities.dll
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\bin\Debug\net5.0\E-Commerce.Entities.pdb
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\obj\Debug\net5.0\E-Commerce.Entities.csproj.AssemblyReference.cache
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\obj\Debug\net5.0\E-Commerce.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\obj\Debug\net5.0\E-Commerce.Entities.AssemblyInfoInputs.cache
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\obj\Debug\net5.0\E-Commerce.Entities.AssemblyInfo.cs
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\obj\Debug\net5.0\E-Commerce.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\obj\Debug\net5.0\E-Commerce.Entities.dll
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\obj\Debug\net5.0\refint\E-Commerce.Entities.dll
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\obj\Debug\net5.0\E-Commerce.Entities.pdb
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\obj\Debug\net5.0\ref\E-Commerce.Entities.dll
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\bin\Debug\net5.0\E-Commerce.Entities.runtimeconfig.json
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\bin\Debug\net5.0\E-Commerce.Entities.runtimeconfig.dev.json
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.Entities\obj\Debug\net5.0\E-Commerce.Entities.genruntimeconfig.cache

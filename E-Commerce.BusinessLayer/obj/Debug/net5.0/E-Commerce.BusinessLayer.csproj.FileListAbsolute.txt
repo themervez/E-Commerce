@@ -1,0 +1,17 @@
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\net5.0\E-Commerce.BusinessLayer.deps.json
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\net5.0\E-Commerce.BusinessLayer.dll
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\net5.0\E-Commerce.BusinessLayer.pdb
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\E-Commerce.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\E-Commerce.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\E-Commerce.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\E-Commerce.BusinessLayer.AssemblyInfo.cs
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\E-Commerce.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\E-Commerce.BusinessLayer.dll
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\refint\E-Commerce.BusinessLayer.dll
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\E-Commerce.BusinessLayer.pdb
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\ref\E-Commerce.BusinessLayer.dll
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\net5.0\E-Commerce.DAL.dll
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\net5.0\E-Commerce.Entities.dll
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\net5.0\E-Commerce.DAL.pdb
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\net5.0\E-Commerce.Entities.pdb
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\E-Commerce.BusinessLayer.csproj.CopyComplete
