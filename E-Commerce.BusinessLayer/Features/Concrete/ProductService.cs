@@ -43,5 +43,10 @@ namespace E_Commerce.BusinessLayer.Features.Concrete
         {
             return _productDAL.GetList();
         }
+
+        public List<Product> TGetPopularProducts()
+        {
+            return _productDAL.GetPopularProducts();
+        }
     }
 }

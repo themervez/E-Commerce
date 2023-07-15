@@ -10,5 +10,6 @@ namespace E_Commerce.BusinessLayer.Features.Abstract
 {
     public interface IProductService : IGenericService<Product>
     {
+        public List<Product> TGetPopularProducts();
     }
 }

@@ -3,11 +3,6 @@ using E_Commerce.BusinessLayer.Features.Concrete;
 using E_Commerce.DAL.Abstract;
 using E_Commerce.DAL.Concrete.EF;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace E_Commerce.BusinessLayer.Configuration.DIContainer
 {

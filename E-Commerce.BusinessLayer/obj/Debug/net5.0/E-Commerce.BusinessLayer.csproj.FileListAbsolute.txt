@@ -15,3 +15,6 @@ C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\ne
 C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\net5.0\E-Commerce.DAL.pdb
 C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\net5.0\E-Commerce.Entities.pdb
 C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\E-Commerce.BusinessLayer.csproj.CopyComplete
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\net5.0\E-Commerce.BusinessLayer.runtimeconfig.json
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\bin\Debug\net5.0\E-Commerce.BusinessLayer.runtimeconfig.dev.json
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.BusinessLayer\obj\Debug\net5.0\E-Commerce.BusinessLayer.genruntimeconfig.cache

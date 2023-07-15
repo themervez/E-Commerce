@@ -13,13 +13,17 @@ namespace E_Commerce.DAL.Concrete.EF
 {
     public class EFProductDAL : GenericRepository<Product>, IProductDAL
     {
+        private readonly ECommerceDbContext _context;
+
         public EFProductDAL(ECommerceDbContext context) : base(context)
         {
+            _context = context;
         }
 
-        public IEnumerable<Product> GetPopularProducts()
+        public List<Product> GetPopularProducts()
         {
-            throw new NotImplementedException();
+            var values = _context.Products.Where(x => x.Price > 14000).ToList();
+            return values;
         }
     }
 }

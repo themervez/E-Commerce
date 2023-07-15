@@ -9,6 +9,6 @@ namespace E_Commerce.DAL.Abstract
 {
     public interface IProductDAL:IGenericDAL<Product>
     {
-        IEnumerable<Product> GetPopularProducts();
+        List<Product> GetPopularProducts();
     }
 }

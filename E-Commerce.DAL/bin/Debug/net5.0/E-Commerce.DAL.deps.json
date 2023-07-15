@@ -1071,7 +1071,8 @@
       },
       "E-Commerce.Entities/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.17"
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
         "runtime": {
           "E-Commerce.Entities.dll": {}
