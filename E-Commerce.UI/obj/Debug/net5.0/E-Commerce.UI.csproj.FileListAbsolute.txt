@@ -160,3 +160,4 @@ C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\
 C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\Views\Shared\_Slider.cshtml.g.cs
 C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\Views\Shared\_Product.cshtml.g.cs
 C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\Views\Trade\List.cshtml.g.cs
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\Views\Trade\Details.cshtml.g.cs
