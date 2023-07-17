@@ -2,6 +2,7 @@
 using E_Commerce.Entities;
 using E_Commerce.UI.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace E_Commerce.UI.Controllers
 {
@@ -21,14 +22,18 @@ namespace E_Commerce.UI.Controllers
                 return NotFound();
             }
 
-            Product product = _productService.TGetById((int)id);
+            Product product = _productService.TGetProductDetails((int)id);
 
             if (product == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(new ProductDetailsModel()
+            {
+                Product= product,
+                Categories= product.CategoryProducts.Select(x => x.Category).ToList()    
+            });
         }
         public IActionResult List()
         {

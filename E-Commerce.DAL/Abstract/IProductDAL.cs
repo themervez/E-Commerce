@@ -10,5 +10,6 @@ namespace E_Commerce.DAL.Abstract
     public interface IProductDAL:IGenericDAL<Product>
     {
         List<Product> GetPopularProducts();
+        Product GetProductDetails(int id);
     }
 }

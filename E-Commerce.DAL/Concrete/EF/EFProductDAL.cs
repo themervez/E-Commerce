@@ -26,5 +26,12 @@ namespace E_Commerce.DAL.Concrete.EF
             var values = _context.Products.Where(x => x.Price > 14000).ToList();
             return values;
         }
+        public Product GetProductDetails(int id)
+        {
+            return _context.Products.Where(x => x.ID == id)
+                                    .Include(x => x.CategoryProducts)//for eager loading
+                                    .ThenInclude(x => x.Category)//for eager loading
+                                    .FirstOrDefault();
+        }
     }
 }

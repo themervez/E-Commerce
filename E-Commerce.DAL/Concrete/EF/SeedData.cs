@@ -45,10 +45,10 @@ namespace E_Commerce.DAL.Concrete.EF
 
         private static Product[] Products =
 {
-            new Product() { Name="iPhone 14 Pro", Price=15000, ImageUrl="a1.jpg",Description="<p>Production date:2023<p/>"},
-            new Product() { Name="iPhone 14 Pro Max", Price=16000, ImageUrl="a2.jpg",Description="<p>Production date:2022<p/>"},
-            new Product() { Name="iPhone 11 Pro", Price=13000, ImageUrl="a3.jpg",Description="<p>Production date:2021<p/>"},
-            new Product() { Name="iPhone 11 Pro Max", Price=14000, ImageUrl="a4.jpg",Description="<p>Production date:2020<p/>"},
+            new Product() { Name="iPhone 14 Pro", Price=15000, ImageUrl="a1.jpg",Description="Production date:2023"},
+            new Product() { Name="iPhone 14 Pro Max", Price=16000, ImageUrl="a2.jpg",Description="Production date:2022"},
+            new Product() { Name="iPhone 11 Pro", Price=13000, ImageUrl="a3.jpg",Description="Production date:2021"},
+            new Product() { Name="iPhone 11 Pro Max", Price=14000, ImageUrl="a4.jpg",Description="Production date:2020"},
         };
 
         private static CategoryProduct[] CategoryProduct =
