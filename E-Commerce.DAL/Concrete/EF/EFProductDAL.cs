@@ -2,6 +2,7 @@
 using E_Commerce.DAL.Concrete.DbContexts;
 using E_Commerce.DAL.Concrete.Repository;
 using E_Commerce.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;

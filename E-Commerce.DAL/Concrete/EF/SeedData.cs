@@ -29,8 +29,8 @@ namespace E_Commerce.DAL.Concrete.EF
                 if (context.Products.Count() == 0)//If the database does not already have category data
                 {
                     context.Products.AddRange(Products);
+                    context.AddRange(CategoryProduct);
                 }
-
                 context.SaveChanges();
             }
         }
@@ -40,14 +40,27 @@ namespace E_Commerce.DAL.Concrete.EF
         {
             new Category() { Name="Phone"},
             new Category() { Name="Computer"},
+            new Category() { Name="Electronics"},
         };
 
         private static Product[] Products =
 {
-            new Product() { Name="iPhone 14 Pro", Price=15000, ImageUrl="a1.jpg"},
-            new Product() { Name="iPhone 14 Pro Max", Price=16000, ImageUrl="a2.jpg"},
-            new Product() { Name="iPhone 11 Pro", Price=13000, ImageUrl="a3.jpg"},
-            new Product() { Name="iPhone 11 Pro Max", Price=14000, ImageUrl="a4.jpg"},
+            new Product() { Name="iPhone 14 Pro", Price=15000, ImageUrl="a1.jpg",Description="<p>Production date:2023<p/>"},
+            new Product() { Name="iPhone 14 Pro Max", Price=16000, ImageUrl="a2.jpg",Description="<p>Production date:2022<p/>"},
+            new Product() { Name="iPhone 11 Pro", Price=13000, ImageUrl="a3.jpg",Description="<p>Production date:2021<p/>"},
+            new Product() { Name="iPhone 11 Pro Max", Price=14000, ImageUrl="a4.jpg",Description="<p>Production date:2020<p/>"},
+        };
+
+        private static CategoryProduct[] CategoryProduct =
+        {
+            new CategoryProduct (){ Product=Products[0],Category=Categories[0]},
+            new CategoryProduct (){ Product=Products[0],Category=Categories[2]},
+            new CategoryProduct (){ Product=Products[1],Category=Categories[0]},
+            new CategoryProduct (){ Product=Products[1],Category=Categories[2]},
+            new CategoryProduct (){ Product=Products[2],Category=Categories[0]},
+            new CategoryProduct (){ Product=Products[2],Category=Categories[2]},
+            new CategoryProduct (){ Product=Products[3],Category=Categories[0]},
+            new CategoryProduct (){ Product=Products[3],Category=Categories[2]},
         };
     }
 }
