@@ -35,11 +35,11 @@ namespace E_Commerce.UI.Controllers
                 Categories= product.CategoryProducts.Select(x => x.Category).ToList()    
             });
         }
-        public IActionResult List()
+        public IActionResult List(string category)
         {
             return View(new ProductListModel()
             {
-                Products = _productService.TGetList()
+                Products = _productService.TGetProductsByCategory(category)
             });
         }
     }

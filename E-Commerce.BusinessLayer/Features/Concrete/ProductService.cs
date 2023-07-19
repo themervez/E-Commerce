@@ -53,5 +53,10 @@ namespace E_Commerce.BusinessLayer.Features.Concrete
         {
             return _productDAL.GetProductDetails(id);
         }
+
+        public List<Product> TGetProductsByCategory(string category)
+        {
+            return _productDAL.GetProductsByCategory(category);
+        }
     }
 }

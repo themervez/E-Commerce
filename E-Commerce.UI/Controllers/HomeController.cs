@@ -26,7 +26,7 @@ namespace E_Commerce.UI.Controllers
             //return View(_productService.TGetList());
             return View(new ProductListModel()
             {
-                Products = _productService.TGetPopularProducts()
+                Products = _productService.TGetList()
             });
         }
 

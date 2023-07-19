@@ -33,5 +33,18 @@ namespace E_Commerce.DAL.Concrete.EF
                                     .ThenInclude(x => x.Category)//for eager loading
                                     .FirstOrDefault();
         }
+
+        public List<Product> GetProductsByCategory(string category)
+        {
+            var products = _context.Products.AsQueryable();//for controlling the query:AsQueryable
+            if (!string.IsNullOrEmpty(category))
+            {
+                products = products
+                         .Include(x => x.CategoryProducts)
+                         .ThenInclude(x => x.Category)
+                         .Where(x => x.CategoryProducts.Any(x => x.Category.Name.ToLower() == category.ToLower()));
+            }
+            return products.ToList();
+        }
     }
 }
