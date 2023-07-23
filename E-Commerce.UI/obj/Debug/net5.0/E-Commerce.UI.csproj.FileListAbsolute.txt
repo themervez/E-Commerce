@@ -162,3 +162,6 @@ C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\
 C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\Views\Trade\Details.cshtml.g.cs
 C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
 C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\Views\Trade\List.cshtml.g.cs
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\Views\Admin\AddProduct.cshtml.g.cs
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\Merve\Documents\GitHub\E-Commerce\E-Commerce.UI\obj\Debug\net5.0\Razor\Views\Admin\Edit.cshtml.g.cs

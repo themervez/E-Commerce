@@ -1,0 +1,45 @@
+﻿@model ProductListModel
+@{
+    ViewData["Title"] = "Index";
+    int count = 0;
+}
+
+<h1>Admin Products</h1>
+<hr />
+
+@if (Model.Products.Count() > 0)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        @foreach (var item in Model.Products)
+        {
+            count++;
+            <tr>
+                <td>@count</td>
+                <td>
+                    <img src="~/img/@item.ImageUrl" width="80" />
+                </td>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td><a href="/Admin/Products/@item.ID" class="btn btn-warning btn-sm">Edit</a></td>
+                <td><a href="/Admin/Delete/@item.ID" class="btn btn-danger btn-sm">Delete</a></td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">
+        <h4>There Are No Products!</h4>
+    </div>
+}
+
