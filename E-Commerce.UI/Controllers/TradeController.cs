@@ -31,15 +31,25 @@ namespace E_Commerce.UI.Controllers
 
             return View(new ProductDetailsModel()
             {
-                Product= product,
-                Categories= product.CategoryProducts.Select(x => x.Category).ToList()    
+                Product = product,
+                Categories = product.CategoryProducts.Select(x => x.Category).ToList()
             });
         }
-        public IActionResult List(string category)
+        public IActionResult List(string category, int page = 1)
         {
+            const int pageSize = 3;
+
             return View(new ProductListModel()
             {
-                Products = _productService.TGetProductsByCategory(category)
+                Products = _productService.TGetProductsByCategory(category, page, pageSize),
+
+                PageInfo = new PageInfo()
+                {
+                    TotalItems = _productService.GetCountByCategory(category),
+                    CurrentPage = page,
+                    ItemsPerPage = pageSize,
+                    CurrentCategory = category
+                }
             });
         }
     }

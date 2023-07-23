@@ -12,6 +12,7 @@ namespace E_Commerce.BusinessLayer.Features.Abstract
     {
         public List<Product> TGetPopularProducts();
         public Product TGetProductDetails(int id);
-        public List<Product> TGetProductsByCategory(string category);
+        public List<Product> TGetProductsByCategory(string category,int page, int pageSize);
+        int GetCountByCategory(string category);
     }
 }

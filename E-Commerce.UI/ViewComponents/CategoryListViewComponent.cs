@@ -17,6 +17,7 @@ namespace E_Commerce.UI.ViewComponents
         {
             return View( new CategoryListViewModel()
             {
+                SelectedCategory = RouteData.Values["category"]?.ToString(),
                 Categories=_categoryService.TGetList()
             });
         }   

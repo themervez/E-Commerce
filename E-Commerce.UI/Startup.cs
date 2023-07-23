@@ -2,6 +2,7 @@ using E_Commerce.BusinessLayer.Configuration.DIContainer;
 using E_Commerce.DAL.Concrete.DbContexts;
 using E_Commerce.DAL.Concrete.EF;
 using E_Commerce.UI.Middlewares;
+using E_Commerce.UI.TagHelpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -28,6 +29,7 @@ namespace E_Commerce.UI
             {
                 options.UseSqlServer(Configuration.GetConnectionString("ConStr"));
             });
+            services.AddRazorPages();
             services.AddControllersWithViews();
         }
 

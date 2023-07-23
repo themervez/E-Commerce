@@ -21,6 +21,20 @@ namespace E_Commerce.DAL.Concrete.EF
             _context = context;
         }
 
+        public int GetCountByCategory(string category)
+        {
+            var products = _context.Products.AsQueryable();
+
+            if (!string.IsNullOrEmpty(category))
+            {
+                products = products
+                         .Include(x => x.CategoryProducts)
+                         .ThenInclude(x => x.Category)
+                         .Where(x => x.CategoryProducts.Any(x => x.Category.Name.ToLower() == category.ToLower()));
+            }
+            return products.Count();
+        }
+
         public List<Product> GetPopularProducts()
         {
             var values = _context.Products.Where(x => x.Price > 14000).ToList();
@@ -34,7 +48,7 @@ namespace E_Commerce.DAL.Concrete.EF
                                     .FirstOrDefault();
         }
 
-        public List<Product> GetProductsByCategory(string category)
+        public List<Product> GetProductsByCategory(string category, int page, int pageSize)
         {
             var products = _context.Products.AsQueryable();//for controlling the query:AsQueryable
             if (!string.IsNullOrEmpty(category))
@@ -44,7 +58,7 @@ namespace E_Commerce.DAL.Concrete.EF
                          .ThenInclude(x => x.Category)
                          .Where(x => x.CategoryProducts.Any(x => x.Category.Name.ToLower() == category.ToLower()));
             }
-            return products.ToList();
+            return products.Skip((page - 1) * pageSize).Take(pageSize).ToList();//for showing stated page
         }
     }
 }
